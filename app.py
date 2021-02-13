@@ -61,7 +61,7 @@ def predict():
         output = "Non Bully"
 
     tt = end - start
-    cc = "all bal chal"
+    #cc = "all bal chal"
     return render_template('index.html', Input_text1='Input Sentence : {}'.format(user_input),
                            prediction_text='Input Sentence Indicates : {}'.format(output)
                            , Time_taken='Time Taken for Prediction : {:.2f}'.format(tt),
