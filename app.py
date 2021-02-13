@@ -1,15 +1,15 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 #from flask_cors import CORS
-import pickle
+#import pickle
 import time
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import model_from_json 
-import pickle
+import pickle5 as pickle
 app = Flask(__name__)
 #CORS(app)
-vocab_size = 12708
+vocab_size = 70274
 maxlen = 30
 # loading
 with open('tokenizer1.pickle', 'rb') as handle:
